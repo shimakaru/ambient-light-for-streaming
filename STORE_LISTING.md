@@ -75,9 +75,8 @@ Developer Dashboard の「プライバシーに関する慣行」タブで聞か
   - ウェブサイトコンテンツ: 収集しない（映像フレームはローカルで色解析のみ、保存・送信なし）
 - **プライバシーポリシーURL**:
   ```
-  https://<your-github-username>.github.io/<repo-name>/privacy.html
+  https://shimakaru.github.io/ambient-light-for-streaming/privacy.html
   ```
-  （GitHub Pages公開後、実際のURLに置き換えてください）
 
 ## 必要なアセット
 

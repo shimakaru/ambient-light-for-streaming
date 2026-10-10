@@ -35,7 +35,7 @@ Netflix・Amazon Prime Video・Disney+・U-NEXT・Hulu・DMM TVなどDRMを使�
 
 ## プライバシーポリシー
 
-[こちら](https://<your-github-username>.github.io/<repo-name>/privacy.html)
+[こちら](https://shimakaru.github.io/ambient-light-for-streaming/privacy.html)
 
 ## 免責事項
 
