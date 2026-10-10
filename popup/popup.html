@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>Ambient Light for 動画配信</title>
+<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="header">
+    <span class="title">Ambient Light for 動画配信</span>
+    <label class="switch">
+      <input type="checkbox" id="enabledToggle" />
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <main class="body">
+    <div class="row">
+      <label for="strength">強さ</label>
+      <input type="range" id="strength" min="0" max="100" step="1" />
+      <span class="value" id="strengthValue">65</span>
+    </div>
+
+    <div class="row">
+      <label for="fps">なめらかさ (FPS)</label>
+      <select id="fps">
+        <option value="15">省電力 (15fps)</option>
+        <option value="24">標準 (24fps)</option>
+        <option value="30">高品質 (30fps)</option>
+      </select>
+    </div>
+
+    <p class="hint">TVer・ABEMA・ニコニコ動画の動画再生ページで動作します。</p>
+  </main>
+
+  <footer class="footer">
+    <span>非公式の拡張機能です。各サービスの運営会社とは関係ありません。</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
